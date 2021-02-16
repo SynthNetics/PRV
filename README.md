@@ -30,7 +30,51 @@ modules:
 
 
 
+Spelling  -  Theoretical Basis:
 
+based upon the research of the:
+Natural Language Processing Group at Stanford University 
+https://nlp.stanford.edu/
+https://nlp.stanford.edu/IR-book/html/htmledition/spelling-correction-1.html
+https://nlp.stanford.edu/IR-book/html/htmledition/implementing-spelling-correction-1.html
+
+they developed algorithms to determine "Edit Distance",  
+which expresses "various alternative correct spellings" 
+in terms of:  
+  "the minimum number of edit operations required to transform" String1 into String2
+https://nlp.stanford.edu/IR-book/html/htmledition/edit-distance-1.html
+
+k-gram indexes can improve upon isolate word corrections
+(K-grams are k-length subsequences of a string)
+https://nlp.stanford.edu/IR-book/html/htmledition/k-gram-indexes-for-spelling-correction-1.html
+
+although general purpose (sugestive) spelling correction can be implemented,
+common spelling errors relevant to particular knowlege domains might yield better results.
+
+
+
+
+NLP (natural language processing)  -  Theoretical Basis:
+
+Google developed: BERT (Bidirectional Encoder Representations from Transformers) 
+which "is a Transformer-based machine learning technique for natural language processing (NLP) pre-training"
+https://en.wikipedia.org/wiki/BERT_(language_model)
+
+
+
+
+in my project developmental efforts, 
+I would like to evaluate: 
+
+Word2vec, which represents distinct words as numbers in a vector
+https://en.wikipedia.org/wiki/Word2vec
+
+semantic similarity between the words represented by those vectors, 
+is expressed mathematicaly as a scaler value of cosine similarity between the vectors;
+which if it works, indicates the level of semantic similarity between the words represented by those vectors.
+
+https://en.wikipedia.org/wiki/Inner_product_space
+https://en.wikipedia.org/wiki/Cosine_similarity
 
 
 
@@ -42,7 +86,7 @@ via "Tensors", which are multidimensional arrays (matrices).
 RNN (Recurrent Neural Networks) 
 https://en.wikipedia.org/wiki/Recurrent_neural_network
 
-express sequences of words (sentences) as "chain structures", 
+express sequences of words (sentences) as "chain structures",
 with internal links between processing nodes 
 expressing the "recurrent" functionality
 
