@@ -87,7 +87,7 @@ RNN (Recurrent Neural Networks)
 https://en.wikipedia.org/wiki/Recurrent_neural_network
 
 express sequences of words (sentences) as "chain structures",
-with internal links between processing nodes 
+with internal feedback links between processing nodes 
 expressing the "recurrent" functionality
 
 
