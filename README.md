@@ -29,11 +29,10 @@ modules:
 		producing a multi-dimensional output vector based upon statistical probability rating.
 
 
-
 Spelling  -  Theoretical Basis:
 
 based upon the research of the:
-Natural Language Processing Group at Stanford University 
+Natural Language Processing Group at Stanford University
 https://nlp.stanford.edu/
 https://nlp.stanford.edu/IR-book/html/htmledition/spelling-correction-1.html
 https://nlp.stanford.edu/IR-book/html/htmledition/implementing-spelling-correction-1.html
@@ -72,7 +71,6 @@ https://en.wikipedia.org/wiki/Word2vec
 semantic similarity between the words represented by those vectors, 
 is expressed mathematicaly as a scaler value of cosine similarity between the vectors;
 which if it works, indicates the level of semantic similarity between the words represented by those vectors.
-
 https://en.wikipedia.org/wiki/Inner_product_space
 https://en.wikipedia.org/wiki/Cosine_similarity
 
@@ -98,4 +96,3 @@ https://en.wikipedia.org/wiki/Long_short-term_memory
 
 
 this extension project is in conceptual research and development stage.
-
