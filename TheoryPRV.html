@@ -1,0 +1,186 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>PRV-ParallelRoutingVectors</title>
+</head>
+
+
+<!-- BODY BGCOLOR="#FFFFFF" LINK="0000B0" VLINK="404080" ALINK="4444AA" -->
+<BODY BGCOLOR="#C0D0E8" LINK="0000B0" VLINK="404080" ALINK="4444AA">
+
+
+</br>&nbsp;</br>
+
+
+
+
+<TABLE WIDTH="90%" ALIGN="center" BORDER=0 CELLSPACING=0 BGCOLOR="D0E0F8">
+<TR ALIGN="center"><TD>
+  <h1>PRV - Parallel Routing Vectors</h1>
+  extension of my
+  <a href="https://github.com/Synthnetics/PRT"> <FONT><STRONG>oneAPI contest entry: PRT</STRONG></FONT></a></br>
+</br>&nbsp;</br>
+</TD></TR>
+</TABLE>
+
+
+
+
+</br>&nbsp;</br>
+
+
+
+
+
+<TABLE WIDTH="90%" ALIGN="center" BORDER=0 CELLSPACING=0 BGCOLOR="D0E0F8">
+<TR ALIGN="center"><TD>
+<h2>Spelling  -  Theoretical Basis:</h2>
+
+  based upon the research of the:</br>
+  <a href="https://nlp.stanford.edu/">
+&nbsp;</br>
+  <FONT><STRONG>Natural Language Processing Group at Stanford University</STRONG></FONT></a></br>
+
+&nbsp;</br>
+
+  <a href="https://nlp.stanford.edu/IR-book/html/htmledition/spelling-correction-1.html">https://nlp.stanford.edu/IR-book/html/htmledition/spelling-correction-1.html</a></br>
+
+&nbsp;</br>
+
+  <a href="https://nlp.stanford.edu/IR-book/html/htmledition/implementing-spelling-correction-1.html">
+          https://nlp.stanford.edu/IR-book/html/htmledition/implementing-spelling-correction-1.html</a></br>
+
+</br>&nbsp;</br>
+
+  they developed algorithms to determine "Edit Distance",</br>
+  which expresses "various alternative correct spellings" in terms of:</br>
+  "the minimum number of edit operations required to transform" String1 into String2</br>
+
+   <a href="https://nlp.stanford.edu/IR-book/html/htmledition/edit-distance-1.html">
+            https://nlp.stanford.edu/IR-book/html/htmledition/edit-distance-1.html</a></br>
+
+</br>&nbsp;</br>
+
+  k-gram indexes can improve upon isolate word corrections </br>
+  (K-grams are k-length subsequences of a string)</br>
+
+   <a href="https://nlp.stanford.edu/IR-book/html/htmledition/k-gram-indexes-for-spelling-correction-1.html">
+            https://nlp.stanford.edu/IR-book/html/htmledition/k-gram-indexes-for-spelling-correction-1.html</a></br>
+
+</br>&nbsp;</br>
+
+  although general purpose (sugestive) spelling correction can be implemented, </br>
+  common spelling errors, relevant to particular knowlege domains, might yield better results.</br>
+
+<br>&nbsp;<br>
+</TD></TR>
+</TABLE>
+
+
+
+
+</br>&nbsp;</br>
+
+
+
+
+<TABLE WIDTH="90%" ALIGN="center" BORDER=0 CELLSPACING=0 BGCOLOR="D0E0F8">
+<TR ALIGN="center"><TD>
+<h2>NLP (Natural Language Processing)  -  Theoretical Basis:</h2>
+
+
+  <a href="https://en.wikipedia.org/wiki/Word2vec">Word2vec,</a></br>
+  represents distinct words as numbers in a vector </br>
+
+&nbsp;</br>
+
+  semantic similarity between the words represented by those vectors, </br>
+  is expressed mathematicaly as a scaler value of cosine similarity between the vectors; </br>
+  &nbsp;</br>
+    <a href="https://en.wikipedia.org/wiki/Inner_product_space">
+            https://en.wikipedia.org/wiki/Inner_product_space</a></br>
+  &nbsp;</br>
+    <a href="https://en.wikipedia.org/wiki/Cosine_similarity">
+             https://en.wikipedia.org/wiki/Cosine_similarity</a></br>
+  &nbsp;</br>
+  which if it works, </br>
+  indicates the level of semantic similarity between the words represented by those vectors. </br>
+</br>&nbsp;</br>
+
+
+<a href="https://en.wikipedia.org/wiki/Recurrent_neural_network">RNN (Recurrent Neural Networks)</a></br>
+express sequences of words (sentences) as "chain structures", </br>
+with internal feedback links between processing nodes </br>
+expressing the "recurrent" functionality</br>
+
+</br>&nbsp;</br>
+
+LSTM (Long Short-Term Memory) </br>
+<a href="https://en.wikipedia.org/wiki/Long_short-term_memory">
+         https://en.wikipedia.org/wiki/Long_short-term_memory</a></br>
+
+ </br>&nbsp;</br>
+
+  I would like to experiment with (Google) TensorFlow </br>
+  to try to implement deep NLU (Natural Language Understanding) networks via "Tensors",</br>
+   which are multidimensional arrays (matrices).</br>
+
+</br>&nbsp;</br>
+
+
+Google developed: BERT (Bidirectional Encoder Representations from Transformers) </br>
+which "is a Transformer-based machine learning technique for natural language processing (NLP) pre-training" </br>
+
+<a href="https://en.wikipedia.org/wiki/BERT_(language_model)">
+        https://en.wikipedia.org/wiki/BERT_(language_model)</a></br>
+
+
+<br>&nbsp;<br>
+</TD></TR>
+</TABLE>
+
+
+
+
+</br>&nbsp;</br>
+
+
+
+
+<TABLE WIDTH="90%" ALIGN="center" BORDER=0 CELLSPACING=0 BGCOLOR="D0E0F8">
+<TR ALIGN="center"><TD>
+  <br>&nbsp;<br>
+
+  <h4>this extension project is in </h4>
+  <h3>conceptual research and development stage</h3>
+
+  <br>&nbsp;<br>
+</TD></TR>
+</TABLE>
+
+
+
+
+&nbsp;</br>
+
+
+
+
+<BR><HR WIDTH = "50%" >
+
+<P ALIGN="center">
+<A HREF="https://github.com/Synthnetics/PRV">
+<FONT><STRONG>PRV - ParallelRoutingVectors </br> on &nbsp;&nbsp; GitHub</STRONG></FONT></A><BR>
+<BR>
+</P>
+
+<P ALIGN="center">
+this webpage was last updated on: February 19, 2021<BR>
+</P>
+
+&nbsp;</br>
+
+</body>
+</html>
